@@ -45,23 +45,23 @@ public class AlunosController {
     }
 
 
-//    @Bean
-//    public AlunosEntity init() {
-//
-//        AlunosEntity aluno1 = new AlunosEntity();
-//        aluno1.setId(1L);
-//        aluno1.setNome("Aluno 1");
-//        aluno1.setEmail("aluno1@gmail.com");
-//
-//        AlunosEntity aluno2 = new AlunosEntity();
-//        aluno2.setId(2L);
-//        aluno2.setNome("Aluno 2");
-//        aluno2.setEmail("aluno2@gmail.com");
-//
-//        alunosRepository.insert(aluno1);
-//        alunosRepository.insert(aluno2);
-//
-//        return aluno1;
-//    }
+    @Bean
+    public AlunosEntity init() {
+
+        AlunosEntity aluno1 = new AlunosEntity();
+        aluno1.setId(1L);
+        aluno1.setNome("Aluno 1");
+        aluno1.setEmail("aluno1@gmail.com");
+
+        AlunosEntity aluno2 = new AlunosEntity();
+        aluno2.setId(2L);
+        aluno2.setNome("Aluno 2");
+        aluno2.setEmail("aluno2@gmail.com");
+
+        alunosRepository.insert(aluno1);
+        alunosRepository.insert(aluno2);
+
+        return aluno1;
+    }
 
 }
